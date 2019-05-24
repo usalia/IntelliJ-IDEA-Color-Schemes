@@ -1,11 +1,11 @@
-<scheme name="miku_rust" version="142" parent_scheme="Default">
+<scheme name="Miku" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2019-05-20T10:45:37</property>
+    <property name="created">2019-05-24T07:21:52</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2019.1.2.0.0</property>
-    <property name="modified">2019-05-20T10:45:52</property>
-    <property name="originalScheme">miku_rust</property>
+    <property name="modified">2019-05-24T07:22:41</property>
+    <property name="originalScheme">Miku</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="14" />
@@ -691,10 +691,37 @@
         <option name="FOREGROUND" value="bc3f3c" />
       </value>
     </option>
+    <option name="org.rust.BLOCK_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="806573" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="org.rust.COMMA">
       <value>
         <option name="FOREGROUND" value="f45d6d" />
         <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="org.rust.DOC_CODE">
+      <value>
+        <option name="FOREGROUND" value="5c5c5c" />
+      </value>
+    </option>
+    <option name="org.rust.DOC_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="6b6875" />
+      </value>
+    </option>
+    <option name="org.rust.DOC_HEADING">
+      <value>
+        <option name="FOREGROUND" value="397558" />
+      </value>
+    </option>
+    <option name="org.rust.DOC_LINK">
+      <value>
+        <option name="FOREGROUND" value="2d484d" />
+        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="org.rust.DOT">
@@ -712,6 +739,11 @@
     <option name="org.rust.ENUM_VARIANT">
       <value>
         <option name="FOREGROUND" value="c9f8d3" />
+      </value>
+    </option>
+    <option name="org.rust.EOL_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="767483" />
       </value>
     </option>
     <option name="org.rust.FIELD">
