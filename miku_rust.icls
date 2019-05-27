@@ -1,10 +1,10 @@
 <scheme name="Miku" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2019-05-24T07:21:52</property>
+    <property name="created">2019-05-27T05:44:12</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2019.1.2.0.0</property>
-    <property name="modified">2019-05-24T07:22:41</property>
+    <property name="modified">2019-05-27T05:44:29</property>
     <property name="originalScheme">Miku</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -13,7 +13,7 @@
   <colors>
     <option name="ADDED_LINES_COLOR" value="295622" />
     <option name="CARET_COLOR" value="bbbbbb" />
-    <option name="CARET_ROW_COLOR" value="5b5a4e" />
+    <option name="CARET_ROW_COLOR" value="34332a" />
     <option name="CONSOLE_BACKGROUND_KEY" value="272822" />
     <option name="FILESTATUS_ADDED" value="629755" />
     <option name="FILESTATUS_DELETED" value="6c6c6c" />
@@ -697,9 +697,26 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="org.rust.BRACES">
+      <value>
+        <option name="FOREGROUND" value="f0bfff" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="org.rust.COMMA">
       <value>
         <option name="FOREGROUND" value="f45d6d" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="org.rust.CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="be95ff" />
+      </value>
+    </option>
+    <option name="org.rust.CRATE">
+      <value>
+        <option name="FOREGROUND" value="8567ff" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -720,7 +737,7 @@
     </option>
     <option name="org.rust.DOC_LINK">
       <value>
-        <option name="FOREGROUND" value="2d484d" />
+        <option name="FOREGROUND" value="3f5f64" />
         <option name="FONT_TYPE" value="3" />
       </value>
     </option>
@@ -732,13 +749,13 @@
     </option>
     <option name="org.rust.ENUM">
       <value>
-        <option name="FOREGROUND" value="4bf5a6" />
+        <option name="FOREGROUND" value="25fcb8" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="org.rust.ENUM_VARIANT">
       <value>
-        <option name="FOREGROUND" value="c9f8d3" />
+        <option name="FOREGROUND" value="a1ffd1" />
       </value>
     </option>
     <option name="org.rust.EOL_COMMENT">
@@ -748,7 +765,7 @@
     </option>
     <option name="org.rust.FIELD">
       <value>
-        <option name="FOREGROUND" value="89f6fc" />
+        <option name="FOREGROUND" value="a2f8ff" />
       </value>
     </option>
     <option name="org.rust.IDENTIFIER">
@@ -759,6 +776,12 @@
     <option name="org.rust.MACRO">
       <value>
         <option name="FOREGROUND" value="e76412" />
+      </value>
+    </option>
+    <option name="org.rust.MODULE">
+      <value>
+        <option name="FOREGROUND" value="bf46ff" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="org.rust.MUT_BINDING">
@@ -798,13 +821,19 @@
     </option>
     <option name="org.rust.STRUCT">
       <value>
-        <option name="FOREGROUND" value="56d2f5" />
+        <option name="FOREGROUND" value="229efc" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="org.rust.TRAIT">
       <value>
         <option name="FOREGROUND" value="f98566" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="org.rust.TYPE_ALIAS">
+      <value>
+        <option name="FOREGROUND" value="d6df" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
